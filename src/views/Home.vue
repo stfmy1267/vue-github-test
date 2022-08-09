@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" class="mx-auto" src="../assets/logo.png" />
+    <img alt="Vue logo" class="mx-auto" src="../assets/vue.svg" />
     <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   </div>
 </template>
