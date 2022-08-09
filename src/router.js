@@ -7,7 +7,7 @@ import About from './views/About.vue';
 
 const routes = [
   {
-    path: '/',
+    path: '/vue-github-test',
     component: Home  // Homeビュールーティング
   },
   {
