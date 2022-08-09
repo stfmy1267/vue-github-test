@@ -1,5 +1,5 @@
-import Vue from 'vue';
-import * as VueRouter from 'vue-router';
+// import Vue from 'vue';
+// import * as VueRouter from 'vue-router';
 import { createRouter, createWebHistory } from 'vue-router'
 // HomeビューとAboutビューのインポート
 import Home from './views/Home.vue';
