@@ -7,7 +7,7 @@ import About from './views/About.vue';
 
 const routes = [
   {
-    path: '/vue-github-test',
+    path: '/',
     component: Home  // Homeビュールーティング
   },
   {
@@ -17,7 +17,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
+  base: process.env.BASE_URL,
   routes,
 });
 
